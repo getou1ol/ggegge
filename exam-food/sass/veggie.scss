@@ -1,0 +1,77 @@
+@import "../sass/mixins.scss";
+@import "../sass/reset.scss";
+@import "../sass/vars.scss";
+.veggie{
+    max-width: 1240px;
+    min-height: 614px;
+    display: flex;
+    gap: 51px;
+}
+.veggie-p{
+    padding-top: 261px;
+    @include text($secondary-color, $font-family, 15px, normal, 500, normal, none)
+}
+.veggie-p2{
+    padding-top: 20px;
+    @include text($secondary-color, $font-family, 60px, normal, 500, normal, none)
+}
+.veggie_blocks{
+    padding-top: 55px;
+    display: flex;
+    gap: 81px;
+}
+.veggie_blocks-1-p{
+    text-align: center;
+    @include text($title-color, $font-family, 40px, normal, 600, normal, none)
+}
+.veggie_blocks-1-p2{
+    padding-top: 16px;
+    @include text($secondary-color, $font-family, 15px, normal, 400, normal, none)
+}
+.veggie-button{
+    width: 233px;
+    height: 79px;
+    background-color: #06C167;
+    border: none;
+    margin-top: 51px;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes button{
+    0%{
+        width: 233px;
+        height: 79px;
+        background-color: #06C167;
+        cursor: pointer;
+    }
+    100%{
+        width: 250px;
+        height: 106px;
+        background-color: #076839;
+        cursor: pointer;
+    }
+}
+.veggie-button-p{
+    animation-name: button-p;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    @include text($p-color, $font-family, 16px, normal, 400, normal, none)
+}
+@keyframes button-p{
+    0%{
+        color: white;
+    }
+    100%{
+        color: #06C167;
+    }
+}
+.veggie_2{
+    width: 541px;
+    height: 608px;
+    background-color: #F3FAFB;
+    margin-top: 183px;
+}
+.veggie_2-img{
+    padding-left: 96px;
+}

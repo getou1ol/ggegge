@@ -1,0 +1,43 @@
+@import "../sass/mixins.scss";
+@import "../sass/reset.scss";
+@import "../sass/vars.scss";
+.healthy{
+    max-width: 1240px;
+    min-height: 739px;
+}
+.healthy-block{
+    width: 541px;
+    height: 608px;
+    background-color: #42737A;
+    margin-top: 133px;
+}
+.healthy-block-img{
+    padding-left: 48px;
+}
+.healthy-blocks{
+    display: flex;
+    gap: 84px;
+}
+.healthy-block2{
+    padding-top: 222px;
+}
+.healthy-block2-p{
+    @include text($secondary-color, $font-family, 15px, normal, 500, normal, none)
+}
+.healthy-block2-p2{
+    padding-top: 20px;
+    @include text($secondary-color, $font-family, 60px, normal, 500, normal, none)
+}
+.healthy-block-2-img-p-g{
+    padding-top: 67px;
+    display: flex;
+    gap: 22px;
+}
+.healthy-block-2-img-p-g2{
+    padding-top: 20px;
+    display: flex;
+    gap: 22px;
+}
+.healthy-block-2-p-g{
+    @include text($secondary-color, $font-family, 16px, normal, 400, normal, none)
+}

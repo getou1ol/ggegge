@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.veggie {
+  max-width: 1240px;
+  min-height: 614px;
+  display: flex;
+  gap: 51px;
+}
+
+.veggie-p {
+  padding-top: 261px;
+  color: #1D1D1F;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: none;
+}
+
+.veggie-p2 {
+  padding-top: 20px;
+  color: #1D1D1F;
+  font-family: "Inter", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: none;
+}
+
+.veggie_blocks {
+  padding-top: 55px;
+  display: flex;
+  gap: 81px;
+}
+
+.veggie_blocks-1-p {
+  text-align: center;
+  color: #06C167;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: none;
+}
+
+.veggie_blocks-1-p2 {
+  padding-top: 16px;
+  color: #1D1D1F;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: none;
+}
+
+.veggie-button {
+  width: 233px;
+  height: 79px;
+  background-color: #06C167;
+  border: none;
+  margin-top: 51px;
+  animation-name: button;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes button {
+  0% {
+    width: 233px;
+    height: 79px;
+    background-color: #06C167;
+    cursor: pointer;
+  }
+  100% {
+    width: 250px;
+    height: 106px;
+    background-color: #076839;
+    cursor: pointer;
+  }
+}
+.veggie-button-p {
+  animation-name: button-p;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: none;
+}
+
+@keyframes button-p {
+  0% {
+    color: white;
+  }
+  100% {
+    color: #06C167;
+  }
+}
+.veggie_2 {
+  width: 541px;
+  height: 608px;
+  background-color: #F3FAFB;
+  margin-top: 183px;
+}
+
+.veggie_2-img {
+  padding-left: 96px;
+}/*# sourceMappingURL=veggie.css.map */

@@ -1,0 +1,15 @@
+@import "../sass/header.scss";
+@import "../sass/mixins.scss";
+@import "../sass/reset.scss";
+@import "../sass/vars.scss";
+@import "../sass/healthy.scss";
+@import "../sass/veggie.scss";
+@import "../sass/variety.scss";
+@import "../sass/product.scss";
+@import "../sass/foods.scss";
+@import "../sass/footer.scss";
+.container{
+    max-width: 1240px;
+    padding-left: 117px;
+    margin: auto;
+}

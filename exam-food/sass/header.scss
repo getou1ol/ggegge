@@ -1,0 +1,113 @@
+@import "../sass/mixins.scss";
+@import "../sass/reset.scss";
+@import "../sass/vars.scss";
+.header{
+    max-width: 1240px;
+    min-height: 1049px;
+    background-color: white;
+    padding-left: 117px;
+    margin: auto;
+}
+.header_top{
+    padding-top: 42px;
+    display: flex;
+    gap: 420px;
+}
+.header_top-logo{
+    @include text($title-color, $font-family, 32px, normal, 500, normal, none)
+}
+.header_top-ul{
+    display: flex;
+    gap: 44px;
+    list-style: none;
+    a{
+        text-decoration: none;
+        @include text($secondary-color, $font-family, 16px, normal, 400, normal, none)
+    }
+}
+.header_top-ul :hover{
+    color: #06C167;
+}
+.header_bottom-p{
+    padding-top: 105px;
+    @include text($secondary-color, $font-family, 75px, normal, 600, normal, none)
+}
+.header_bottom-p2{
+    padding-top: 20px;
+    @include text($secondary-color, $font-family, 16px, normal, 400, 142.4%, none)
+}
+.header_bottom-button{
+    width: 200px;
+    height: 68px;
+    background-color: #06C167;
+    border: none;
+    margin-top: 30px;
+    p{
+        @include text($p-color, $font-family,16px, normal, 400, normal, none)
+    }
+}
+.header_bottom-button :hover{
+    cursor: pointer;
+    background-color: black;
+    transition: 2s;
+}
+.header_bottom{
+    display: flex;
+    gap: 127px;
+    padding-top: 74px;
+}
+.header_bottom-2-img{
+    padding-top: 88px;
+}
+.header_bottom-2-p1{
+    @include text($secondary-color, $font-family, 18px, normal, 400, normal, none)
+}
+.header_bottom-2-p2{
+    padding-top: 7px;
+    @include text($secondary-color, $font-family, 14px, normal, 500, normal, none)
+}
+.header_bottom-2-p{
+    display: flex;
+    flex-direction: column;
+}
+.header_bottom-2-block{
+    display: flex;
+    gap: 22px;
+    padding-top: 57.5px;
+}
+.header_bottom-2-p{
+    padding-top: 13px;
+}
+.header_bottom-2-blocks{
+    display: flex;
+    gap: 75px;
+}
+.header_bottom-2-img-2{
+    padding-top: 57.5px;
+}
+@media screen and (max-width: 415px) {
+    .header{
+        padding-right: 300px;
+        width: 415px;
+        height: 2000px;
+        background-color: white;
+    }
+    .header_top{
+        display: flex;
+        flex-direction: column;
+    }
+    .header_top-ul{
+        display: flex;
+        flex-direction: column;
+        a{
+            text-decoration: none;
+            @include text($secondary-color, $font-family, 36px, normal, 400, normal, none)
+        }
+    }
+    .header_top-logo{
+        @include text($title-color, $font-family, 62px, normal, 500, normal, none)
+    }
+    .header_bottom-2-img{
+        width: 100px;
+    }
+}

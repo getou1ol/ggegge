@@ -1,0 +1,58 @@
+@import "../sass/mixins.scss";
+@import "../sass/reset.scss";
+@import "../sass/vars.scss";
+.variety{
+    max-width: 1240px;
+    min-height: 764px;
+}
+.variety-p-1{
+    padding-top: 190px;
+    padding-left: 523.87px;
+    @include text($secondary-color, $font-family, 15px, normal, 400, normal, none)
+}
+.variety-p-2{
+    padding-top: 20px;
+    padding-left: 350px;
+    @include text($secondary-color, $font-family, 60px, normal, 500, normal, none)
+}
+.variety_blocks-p-button{
+    width: 291px;
+    height: 291px;
+    border: 1.5px solid #06C167;
+    background-color: #F3FCF7;
+}
+.variety_blocks-p{
+    padding-top: 37.5px;
+    padding-left: 37.5px;
+    @include text($secondary-color, $font-family, 32px, normal, 500, normal, none)
+}
+.variety_blocks-p-2{
+    padding-top: 25px;
+    padding-left: 37.5px;
+    @include text($secondary-color, $font-family, 16px, normal, 400, normal, none)
+}
+.variety_blocks-button{
+    margin-top: 38px;
+    margin-left: 37.5px;
+    width: 148px;
+    height: 42px;
+    border: none;
+    background-color: #E6F9F0;
+    cursor: pointer;
+    @include text($title-color, $font-family, 15px, normal, 500, normal, none)
+}
+.variety_blocks-button :hover{
+    width: 148px;
+    height: 42px;
+    transition: 1.5s;
+    border: none;
+    position: relative;
+    transform: scale(1.1);
+    background-color: #034c2a;
+    padding-top: 11px;
+}
+.variety_blocks{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 290px);
+}
